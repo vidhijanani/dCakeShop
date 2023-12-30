@@ -1,0 +1,121 @@
+* {
+  margin: o;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  background-color: none;
+  padding: 10px;
+}
+
+.navbar a, .navbar-nav a {
+  font-size: 2em;
+  font-weight: bolder;
+  font-family: Young Serif, "serif";
+}
+
+#home .container-fluid .carousel-inner .carousel-caption h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(50, 195, 64, 0.4);
+  font-size: 3em;
+  color: black;
+  font-family: "Recursive", sans-serif;
+  font-weight: bolder;
+  position: relative;
+  margin-top: -300px;
+  border-radius: 30px;
+}
+#home .container-fluid .carousel-inner .carousel-caption p {
+  font-size: 1.5em;
+  font-family: "Cedarville Cursive", cursive;
+  color: black;
+  font-weight: bolder;
+  background-color: rgba(50, 195, 64, 0.4);
+  border-radius: 30px;
+}
+
+#products {
+  height: 50vh;
+  width: 100w;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/wallpaper.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+#products .container {
+  height: 200px;
+  width: 70%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+#products .container .row h2 {
+  text-align: center;
+  font-size: 30px;
+  font-size: 2.5em;
+  font-family: "Recursive", sans-serif;
+  margin-top: 5px;
+  font-size: 30px;
+}
+#products .container .row .col-md-4 h3 {
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  margin-top: 30px;
+  border-right: 2px solid rgb(29, 26, 26);
+  font-size: 40px;
+  font-family: Young Serif, "serif";
+}
+
+#delicacy {
+  height: 100vh;
+  width: 100vw;
+}
+
+#aboutUS {
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.close {
+  color: #aaa;
+  float: right !important;
+  font-size: 28px;
+  font-weight: bold;
+}/*# sourceMappingURL=dreamCakes.css.map */
